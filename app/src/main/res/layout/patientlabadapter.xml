@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ivPatientFragmentLabHospitalPic"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/ic_launcher" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvPatientFragmentLabHospitalName"
+            android:text="name"
+            android:textSize="25sp"
+            android:layout_toRightOf="@+id/ivPatientFragmentLabHospitalPic"
+            android:layout_marginLeft="10dp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvPatientFragmentLabHospitalEmail"
+            android:text="email"
+            android:textSize="25sp"
+            android:layout_toRightOf="@+id/ivPatientFragmentLabHospitalPic"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/tvPatientFragmentLabHospitalName"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvMessage"
+            android:text="Lab result Uploaded"
+            android:textSize="15sp"
+            android:layout_toRightOf="@+id/ivPatientFragmentLabHospitalPic"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/tvPatientFragmentLabHospitalEmail"></TextView>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

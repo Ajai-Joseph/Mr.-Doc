@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mrdoclogin">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MrDocLogin">
+        <activity android:name=".PatientServicesHospitalListDoctorList" />
+        <activity android:name=".DoctorNewServicesHomeRequestDetails" />
+        <activity android:name=".PatientServicesDoctorHomeRequestDateTime" />
+        <activity android:name=".HospitalDoctorRequestsListProfileDetails" />
+        <activity android:name=".HospitalDoctorRequestsList" />
+        <activity android:name=".DoctorFindHospitalListProfileDetails" />
+        <activity android:name=".DoctorFindHospitalList" />
+        <activity android:name=".PatientServicesHospitalListProfileDetails" />
+        <activity android:name=".RetrievePdfActivity" />
+        <activity android:name=".PdfActivity" />
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".PatientServicesDoctorListProfileDetails" />
+        <activity android:name=".PatientServicesDoctorList" />
+        <activity android:name=".PatientServicesHospitalList" />
+        <activity android:name=".DoctorUpdateProfile" />
+        <activity android:name=".HospitalUpdateProfile" />
+        <activity android:name=".DoctorProfileActivity" />
+        <activity android:name=".HospitalProfileActivity" />
+        <activity android:name=".DoctorRegistration" />
+        <activity android:name=".HospitalRegistration" />
+        <activity android:name=".PatientRegistration" />
+        <activity android:name=".DoctorActivity" />
+        <activity android:name=".HospitalActivity" />
+        <activity android:name=".PatientActivity" />
+        <activity android:name=".UpdatePassword" />
+        <activity android:name=".PatientUpdateProfile" />
+        <activity android:name=".PatientProfileActivity" />
+        <activity android:name=".PasswordActivity" />
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

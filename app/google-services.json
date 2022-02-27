@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "119369371779",
+    "project_id": "mrdoclogin",
+    "storage_bucket": "mrdoclogin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119369371779:android:0078ac64a98211d0268bb6",
+        "android_client_info": {
+          "package_name": "com.example.mrdoclogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119369371779-r8qekbpfc9na3kkqbee4eijtk27m360k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqGTea0qvsTKVacDzFjJ2H19W7H4xAx-w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119369371779-r8qekbpfc9na3kkqbee4eijtk27m360k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

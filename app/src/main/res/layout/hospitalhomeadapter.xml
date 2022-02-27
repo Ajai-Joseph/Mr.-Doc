@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ivHospitalFragmentHomePatientPic"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/ic_launcher" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvHospitalFragmentHomePatientName"
+            android:text="name"
+            android:textSize="25sp"
+            android:layout_toRightOf="@+id/ivHospitalFragmentHomePatientPic"
+            android:layout_marginLeft="10dp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvHospitalFragmentHomePatientEmail"
+            android:text="email"
+            android:textSize="25sp"
+            android:layout_toRightOf="@+id/ivHospitalFragmentHomePatientPic"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/tvHospitalFragmentHomePatientName"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvHospitalFragmentHomeDoctor"
+            android:text="Doctor's Name:"
+            android:textSize="15sp"
+            android:layout_toRightOf="@+id/ivHospitalFragmentHomePatientPic"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/tvHospitalFragmentHomePatientEmail"></TextView>
+
+        <TextView
+            android:id="@+id/tvHospitalFragmentHomeDoctorName"
+            android:layout_width="179dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvHospitalFragmentHomePatientEmail"
+            android:layout_marginLeft="115dp"
+            android:layout_toRightOf="@+id/ivHospitalFragmentHomePatientPic"
+            android:text="Doctor's Name:"
+            android:textSize="15sp"></TextView>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

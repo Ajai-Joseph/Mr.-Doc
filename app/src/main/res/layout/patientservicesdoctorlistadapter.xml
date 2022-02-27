@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/ivPatientServicesDoctorListPic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvPatientServicesDoctorListName"
+            android:text="name"
+            android:textSize="25sp"
+            android:layout_toRightOf="@+id/ivPatientServicesDoctorListPic"
+            android:layout_marginLeft="10dp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvPatientServicesDoctorListEmail"
+            android:text="email"
+            android:textSize="25sp"
+            android:layout_toRightOf="@+id/ivPatientServicesDoctorListPic"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/tvPatientServicesDoctorListName"></TextView>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
